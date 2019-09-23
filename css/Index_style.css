@@ -1,0 +1,44 @@
+header 
+{
+    background-color : rgba(0,0,0,.7) !important ;
+}
+.section1 
+{
+    height : 100% ;
+    background-image: url("../images/business-2.jpg");
+    background-size : 100% 100% ;
+}
+.section1 .layer 
+{
+    background-color : rgba(0,0,0,.7) ;
+    height : 100% ;
+}
+.section3 img
+{
+    transition: .3s ;
+}
+.section3 img:hover 
+{
+    transform: scale(1.1 , 1.1 );
+}
+.section5 
+{
+    background-image: url("../images/BackGrund image 2.jpg");
+    background-size  : 100% 100% ;
+    height : 60% ;
+}
+.section7 button 
+{
+    background-color : #fff ;
+}
+@media (max-width:786px)
+{
+    .section1 h1 
+    {
+        font-size : 20px ; 
+    }
+     p 
+    {
+        width : 100% !important ;
+    }
+}
